@@ -1,5 +1,6 @@
 // src/translations.js
 export const translations = {
+  pp:'/public/pp2.PNG',
   en: {
     about: 'About Me',
     title: 'It touches one, without moving the other',
@@ -17,6 +18,7 @@ export const translations = {
     }
   },
   fr: {
+    pp:'/public/pp2.PNG',
     about: 'Qui je suis',
     title: 'Ça m\'en touche une, sans faire bouger l\'autre',
     projects: 'Projets',

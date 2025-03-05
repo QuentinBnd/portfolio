@@ -39,7 +39,7 @@ const skills = {
     ],
 };
 
-const profilePic = '/src/assets/pp2.png';
+const profilePic = translations.pp;
 
 const AboutMeSection = ({ language }) => {
     return (
