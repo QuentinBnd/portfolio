@@ -98,5 +98,103 @@ export const projets = [
                 "Deploying and containerizing various services using Docker"
             ]
         },
-    },
+    },{
+        "id": 3,
+        "name": "Projet OpenGL",
+        "concept": {
+            "fr": "Ce projet OpenGL a été réalisé dans le cadre du Semestre 5 de ma formation en BUT Informatique.",
+            "en": "This OpenGL project was carried out as part of Semester 5 of my Computer Science degree (BUT Informatique)."
+        },
+        "description": {
+            "fr": "Le projet consistait à réaliser un outil pédagogique afin de montrer les différents types d'affichage de texture, de lumière et de caméra en OpenGL.",
+            "en": "The project involved developing an educational tool to demonstrate different types of texture mapping, lighting, and camera perspectives in OpenGL."
+        },
+        "image": "/projet/OpenGL/opengl.png",
+        "otherImages": [
+            "/projet/OpenGL/opengl1.png",
+            "/projet/OpenGL/opengl2.png"
+        ],
+        "technologies": ["CMake", "OpenGL", "C++"],
+        "skillsImproved": {
+            "fr": [
+                "Approfondissement des bases d'OpenGL",
+                "Manipulation avancée des shaders et des buffers",
+                "Gestion des transformations 3D (matrices de projection, de vue et de modèle)",
+                "Compréhension du pipeline graphique",
+                "Utilisation de CMake pour la gestion du projet"
+            ],
+            "en": [
+                "Deepened understanding of OpenGL basics",
+                "Advanced manipulation of shaders and buffers",
+                "Handling 3D transformations (projection, view, and model matrices)",
+                "Understanding the graphics pipeline",
+                "Using CMake for project management"
+            ]
+        },
+        "difficulties": {
+            "fr": [
+                "Compréhension et mise en œuvre du pipeline graphique",
+                "Optimisation des performances avec les VBO et VAO",
+                "Gestion des collisions et des déplacements de la caméra",
+                "Debugging des shaders et des transformations"
+            ],
+            "en": [
+                "Understanding and implementing the graphics pipeline",
+                "Performance optimization with VBOs and VAOs",
+                "Managing collisions and camera movements",
+                "Debugging shaders and transformations"
+            ]
+        }
+    },{
+        id: 4,
+        name: "MicroManager",
+        concept: {
+            fr: "MicroManager est une application web destinée aux micro-entrepreneurs, facilitant la gestion de leur activité via des outils automatisés pour le suivi des finances, des contrats et des paiements.",
+            en: "MicroManager is a web application designed for micro-entrepreneurs, simplifying business management through automated tools for financial tracking, contracts, and payments."
+        },
+        description: {
+            fr: "MicroManager est mon projet de SAÉ en 3ᵉ année de BUT Informatique. Ce projet vise à offrir une solution de gestion complète aux indépendants. L'application permet de gérer les factures, les contrats, les paiements et le suivi des revenus de manière intuitive. Elle propose également un tableau de bord interactif et une gestion multi-entreprise pour ceux ayant plusieurs activités. Le backend est développé avec ExpressJS pour assurer une API performante et évolutive.",
+            en: "MicroManager is my **SAÉ project** in the third year of my Computer Science degree (BUT). This project aims to provide a comprehensive management solution for freelancers. The application allows users to manage invoices, contracts, payments, and revenue tracking intuitively. It also includes an interactive dashboard and multi-business management for those running multiple activities. The backend is built with ExpressJS to ensure a performant and scalable API."
+        },
+        image: "/projet/micromanager/micro.png",
+        otherImages: [
+            "/projet/micromanager/micro0.png",
+            "/projet/micromanager/micro1.png",
+            "/projet/micromanager/micro2.png",
+            "/projet/micromanager/micro3.png"
+        ],
+        technologies: ["TypeScript", "ExpressJS", "React", "MariaDB", "Docker"],
+        skillsImproved: {
+            fr: [
+                "Développement d'une API REST avec ExpressJS",
+                "Gestion des bases de données relationnelles avec MariaDB",
+                "Mise en place d'une architecture API-first",
+                "Déploiement et conteneurisation avec Docker",
+                "Sécurisation des endpoints et gestion des permissions utilisateur"
+            ],
+            en: [
+                "Developing a REST API with ExpressJS",
+                "Managing relational databases with MariaDB",
+                "Implementing an API-first architecture",
+                "Deployment and containerization with Docker",
+                "Securing endpoints and handling user permissions"
+            ]
+        },
+        difficulties: {
+            fr: [
+                "Mise en place d'un système d'authentification sécurisé avec JWT",
+                "Gestion des transactions financières et des statuts de paiement",
+                "Optimisation des requêtes pour assurer de bonnes performances",
+                "Prise en charge de la gestion multi-entreprise",
+                "Débogage des problèmes liés à l’intégration entre frontend et backend"
+            ],
+            en: [
+                "Implementing a secure authentication system with JWT",
+                "Handling financial transactions and payment statuses",
+                "Optimizing queries to ensure good performance",
+                "Supporting multi-business management",
+                "Debugging integration issues between frontend and backend"
+            ]
+        }
+    }
 ];

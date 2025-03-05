@@ -3,7 +3,7 @@ export const translations = {
   pp:'/pp2.png',
   en: {
     about: 'About Me',
-    title: 'It touches one, without moving the other',
+    title: 'Every problem has a solution',
     projects: 'Projects',
     experience: 'Professional Experience',
     programmingLanguages: 'Programming Languages',
@@ -20,7 +20,7 @@ export const translations = {
   fr: {
     pp:'/public/pp2.PNG',
     about: 'Qui je suis',
-    title: 'Ça m\'en touche une, sans faire bouger l\'autre',
+    title: 'Chaque problème a une solution',
     projects: 'Projets',
     experience: 'Expérience Pro',
     programmingLanguages: 'Langages de Programmation',
